@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name = 'pps-scanner',
+    name = 'ppscanner',
     version = '0.0.1',
     author = 'Sharhan Alhassan',
     author_email = 'sharhanalhassan@gmail.com',
@@ -16,7 +16,7 @@ setup(
     description = 'A lightweight CLI tool for scanning ports and services on a host',
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = 'https://github.com/sharhan-alhassan/pps-scanner',
+    url = 'https://github.com/sharhan-alhassan/ppscanner',
     py_modules = ['app'],
     install_requires = [requirements],
     python_requires ='>=3.7',

@@ -1,20 +1,27 @@
-# Portable Port Scanner -- ppscanner
-Portable Port Scanner (pps-scanner) is a light-weight open-source project CLI utility for showing services running on ports in a host 
+# Portable Port Scanner
+Portable Port Scanner (ppscanner) is a light-weight open-source project CLI utility for showing services running on ports in a host 
 
+## Installation Guide 
 
-## Installation Guide
+### Global dependencis
+- ppscanner leverages on `nmap` functionalities so you need it installed to be able use it.
 
 ```bash
-pip install -i https://test.pypi.org/simple/ hello-cli
+$ sudo apt-get install nmap
+```
+### Project Dependencies
+```bash
+sudo
+pip install -i https://test.pypi.org/simple/ ppscanner
 
 ```
 
 ## Run Commands
 ```bash
-$ cooltool hello --name Sam
+$ ...
 ```
 
 ## For help commands
 ```bash
-$ cooltool --help
+$ ....
 ```
