@@ -17,7 +17,7 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = 'https://github.com/sharhan-alhassan/ppscanner',
-    py_modules = ['app'],
+    py_modules = ['ppscanner'],
     install_requires = [requirements],
     python_requires ='>=3.7',
     classifiers = [
@@ -26,6 +26,6 @@ setup(
     ],
     entry_points = '''
         [console_scripts]
-        ppscan=app:cli
+        ppscan=ppscanner:cli
     '''
 )
