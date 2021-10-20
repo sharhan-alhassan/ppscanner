@@ -9,7 +9,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name = 'ppscanner',
-    version = '0.0.1',
+    version = '0.0.2',
     author = 'Sharhan Alhassan',
     author_email = 'sharhanalhassan@gmail.com',
     license = 'MIT',
@@ -17,11 +17,13 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = 'https://github.com/sharhan-alhassan/ppscanner',
-    py_modules = ['ppscanner'],
+    py_modules = ['ppscanner', 'app'],
+    packages = find_packages(),
     install_requires = [requirements],
     python_requires ='>=3.7',
     classifiers = [
         "Programming Language :: Python :: 3.9",
+        "License:: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     entry_points = '''

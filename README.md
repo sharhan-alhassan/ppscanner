@@ -12,7 +12,7 @@ $ sudo apt-get install nmap
 
 ### Project Dependencies
 ```bash
-$ sudo pip install -i https://test.pypi.org/simple/ ppscanner
+$ pip install -i https://test.pypi.org/simple/ ppscanner
 
 ```
 
