@@ -23,7 +23,6 @@ setup(
     python_requires ='>=3.7',
     classifiers = [
         "Programming Language :: Python :: 3.9",
-        "License:: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     entry_points = '''
