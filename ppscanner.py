@@ -9,6 +9,7 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 def cli():
     pass
 
+
 @cli.command()
 @click.option('-h', '--host', type=str, help="Hostname to be scanned")
 @click.option('-p', '--port', type=str, help="Port number(s) to be scanned")
