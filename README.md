@@ -3,7 +3,7 @@ Portable Port Scanner (ppscanner) is a light-weight open-source CLI utility that
 
 ## Installation Guide 
 
-### Global dependencis
+### Global dependencies
 - ppscanner leverages on `nmap` functionalities so you need it installed to be able use it.
 
 ```bash

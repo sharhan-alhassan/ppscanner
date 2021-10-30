@@ -9,7 +9,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name = 'ppscanner',
-    version = '0.0.4',
+    version = '0.0.1',
     author = 'Sharhan Alhassan',
     author_email = 'sharhanalhassan@gmail.com',
     license = 'MIT',
