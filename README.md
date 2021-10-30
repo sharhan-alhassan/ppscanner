@@ -17,10 +17,15 @@ $ pip install -i https://test.pypi.org/simple/ ppscanner
 ```
 
 ### Run Commands
-- Example code
+- Example code for IP Address: 127.0.0.1 and Port: 80
+- It automatically gives the port(tcp) and state(open/closed)
 ```bash
-$ ppscan scan --host 127.0.0.1 --port 80
+$ ppscan scan 127.0.0.1 80
 ```
+
+### Optional arguments
+- Other optional arguments are `--service` with input of `yes or no` and `reason` with input `yes or no`
+
 
 ### Help commands
 ```bash

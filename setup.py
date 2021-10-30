@@ -9,7 +9,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name = 'ppscanner',
-    version = '0.0.2',
+    version = '0.0.4',
     author = 'Sharhan Alhassan',
     author_email = 'sharhanalhassan@gmail.com',
     license = 'MIT',
@@ -17,8 +17,8 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = 'https://github.com/sharhan-alhassan/ppscanner',
-    py_modules = ['ppscanner', 'app'],
-    packages = find_packages(),
+    packages = find_packages('src'),
+    package_dir = {'': 'src'},
     install_requires = [requirements],
     python_requires ='>=3.7',
     classifiers = [
@@ -27,6 +27,6 @@ setup(
     ],
     entry_points = '''
         [console_scripts]
-        ppscan=ppscanner:cli
+        ppscan=ppscan.cli:main
     '''
 )
